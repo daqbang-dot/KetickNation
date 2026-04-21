@@ -1,0 +1,19 @@
+/* css/variables.css */
+:root {
+    /* Palet 1: Main Energy */
+    --chartreuse: #e1ff51;
+    --gun-metal: #00272c;
+
+    /* Palet 2: Danger/Stats */
+    --maroon: #780115;
+    --xanthous: #f7b638;
+
+    /* Palet 3: Secondary/Interface */
+    --buttermilk: #fff2bd;
+    --mid-blue: #285ccc;
+
+    /* White Mecha Base */
+    --mecha-white: #f5f7fa;
+    --mecha-silver: #e0e5ec;
+    --glass-bg: rgba(255, 255, 255, 0.7);
+}
