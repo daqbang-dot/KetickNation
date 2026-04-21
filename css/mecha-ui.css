@@ -46,6 +46,17 @@ header {
     padding-left: 10px;
 }
 
+/* Grid Layout Utama */
+#inventory-grid {
+    display: grid;
+    /* Ini akan buat susunan automatik responsif ikut saiz skrin smartphone */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 15px;
+    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* RPG Inventory Card */
 .item-card {
     background: var(--glass-bg);
@@ -53,7 +64,7 @@ header {
     border: 1px solid white;
     border-radius: 0 20px 0 20px; /* Bentuk asimetri mecha */
     padding: 15px;
-    margin: 20px;
+    margin: 0; /* Margin dibuang sebab kita dah guna gap dalam grid */
     box-shadow: 10px 10px 20px rgba(0,0,0,0.05);
     transition: 0.3s;
     position: relative;
@@ -102,4 +113,3 @@ header {
     margin-top: 10px;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%); /* Efek butang senget/mecha */
 }
-
